@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Shop</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; margin-top: 100px; }
+    h1 { color: #008000; }
+  </style>
+</head>
+<body>
+  <h1>Akwaaba! My Market is Working</h1>
+  <p>This is running from my laptop in Accra</p>
+  <button onclick="alert('You clicked! Your dev setup works')">Test Me</button>
+</body>
+</html>
