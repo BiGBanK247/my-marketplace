@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>My Shop</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RICHARD's Shop - Fashion in Accra</title>
 <style>
-body { font-family: Arial; text-align: center; padding-top: 50px; background: #f0f0f0; }
-h1 { color: #2c5aa0; }
-.box { background: white; padding: 20px; max-width: 400px; margin: 20px auto; border-radius: 10px; }
+body{font-family:system-ui,Arial;margin:0;background:#f8f8f8}
+.header{background:#111;color:#fff;padding:18px 20px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0}
+.header b{font-size:22px;letter-spacing:1px}
+.btn{background:#25D366;color:#fff;padding:10px 18px;border-radius:30px;text-decoration:none;font-weight:600}
+.hero{background:#111;color:#fff;padding:50px 20px;text-align:center}
+.hero h1{font-size:38px;margin:0}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;padding:20px;max-width:1000px;margin:auto}
+.card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.07)}
+.card img{width:100%;height:200px;object-fit:cover}
+.card .info{padding:12px}
+.price{color:#111;font-weight:800;font-size:18px}
+.card a{display:block;background:#111;color:#fff;text-align:center;padding:10px;text-decoration:none;margin:10px;border-radius:8px}
+.footer{background:#111;color:#888;text-align:center;padding:20px;margin-top:30px;font-size:13px}
 </style>
 </head>
 <body>
-<h1>RICHARD's SHOP</h1>
-<div class="box">
-<h2>Akwaaba!</h2>
-<p>My online marketplace is loading...</p>
-<p style="color: green; font-size: 24px; font-weight: bold;">Price: 50 GHS</p>
-<button onclick="alert('Order received! Medaase!')">Buy Now</button>
+<div class="header"><b>RICHARD's SHOP</b><a class="btn" href="https://wa.me/233000000000">WhatsApp Us</a></div>
+<div class="hero"><h1>New Drop in Accra 🔥</h1><p>Quality clothes - Fast delivery in Greater Accra</p></div>
+<div class="products">
+<div class="card"><img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400"><div class="info"><b>Classic Tee</b><div class="price">GHS 120</div></div><a href="https://wa.me/233000000000?text=Hi Richard, I want Classic Tee">Order on WhatsApp</a></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400"><div class="info"><b>Street Shirt</b><div class="price">GHS 180</div></div><a href="https://wa.me/233000000000?text=Hi Richard, I want Street Shirt">Order on WhatsApp</a></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400"><div class="info"><b>Denim Jeans</b><div class="price">GHS 250</div></div><a href="https://wa.me/233000000000?text=Hi Richard, I want Denim Jeans">Order on WhatsApp</a></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400"><div class="info"><b>Hoodie Premium</b><div class="price">GHS 300</div></div><a href="https://wa.me/233000000000?text=Hi Richard, I want Hoodie">Order on WhatsApp</a></div>
 </div>
+<div class="footer">© 2026 RICHARD's Shop - Accra, Ghana | Delivery available</div>
 </body>
 </html>
